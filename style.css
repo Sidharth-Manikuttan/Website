@@ -309,6 +309,9 @@ nav {
 #support {
   background-color: whitesmoke;
 }
+#supportheading {
+  padding-bottom: 13px;
+}
 #benefits iframe {
   outline: 0;
   border: none;
@@ -343,6 +346,12 @@ input[type="email"] {
   #contact input[type="submit"],
   #contact input[type="email"] {
     margin: 1rem 1rem 0 1rem;
+  }
+  input[type="email"] {
+    width: 86%;
+  }
+  #submit {
+    margin-left: 39% !important;
   }
 }
 
